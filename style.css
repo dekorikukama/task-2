@@ -3,12 +3,12 @@
 }
 
 body {
-    background: #17191C;
     color: #fff;
     line-height: 1.42;
     font-size: 16px;
     font-family: 'Open Sans', Helvetica, sans-serif;
-    
+    background: url(./File/hero.png) center top no-repeat, url(./File/bottom-pic.png) right bottom no-repeat,#17191C;
+
 }
 
 h1, h2, h3, h4, h5, p {
