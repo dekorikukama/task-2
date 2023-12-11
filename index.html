@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
     <title>task-2</title>
 </head>
 <body>
@@ -10,7 +14,7 @@
         <header class="header">
             <div class="logo">
                 <a href="#" class="logo__link">
-                    <img src="" alt="Картинка логотипа" class="logo__icon">
+                    <img src="./File/logo.png" alt="Картинка логотипа" class="logo__icon">
                 </a>
             </div>
         <nav class="menu">
@@ -45,35 +49,39 @@
                 <ul class="service__list">
                     <li class="service__item">
                         <div class="service__image">
-                            <img src="" alt="" class="service__picture">
+                            <img src="./File/tv.png" alt="service__image--tv" class="service__picture">
                         </div>
                         <div class="service__content">
                          <h3 class="service__subtitle">Реклама</h3>
-                         <div class="service__options">
-                            <span class="service__options-text">От 5 человек на проект</span>
-                         </div>
-                         <div class="service__options">
-                            <span class="service__options-text">28 дней работы в стреднем</span>
-                         </div>
+                         <div class="service__config">
+                            <div class="service__options">
+                                <span class="service__options-text">От 5 человек на проект</span>
+                            </div>
+                            <div class="service__options">
+                                <span class="service__options-text">28 дней работы в стреднем</span>
+                            </div>
+                        </div>
                          <div class="service__text">
                             <p>Креатив и производство рекламы, документального и корпоративного контента.</p>
                          </div>
                          <div class="service__button">
-                            <button class="button">Подробнее</button>
+                            <button class="button button--border">Подробнее</button>
                          </div>
                         </div>
                     </li>
                     <li class="service__item">
                         <div class="service__image">
-                            <img src="" alt="" class="service__picture">
+                            <img src="./File/clapper.png" alt="service__image--clapper" class="service__picture">
                         </div>
                         <div class="service__content">
                          <h3 class="service__subtitle">Видео-клип</h3>
-                         <div class="service__options">
-                            <span class="service__options-text">От 7 человек на проект</span>
-                         </div>
-                         <div class="service__options">
-                            <span class="service__options-text">21 дней работы в стреднем</span>
+                         <div class="service__config">
+                            <div class="service__options">
+                                <span class="service__options-text">От 7 человек на проект</span>
+                            </div>
+                            <div class="service__options">
+                                <span class="service__options-text">21 дней работы в стреднем</span>
+                            </div>
                          </div>
                          <div class="service__text">
                             <p>Вы решили представиться своим слушателям, пополнить свой творческий 
@@ -86,22 +94,24 @@
                     </li>
                     <li class="service__item">
                         <div class="service__image">
-                            <img src="" alt="" class="service__picture">
+                            <img src="./File/film.png" alt="service__image--film" class="service__picture">
                         </div>
                         <div class="service__content">
                          <h3 class="service__subtitle">Свадьба</h3>
-                         <div class="service__options">
-                            <span class="service__options-text">От 2 человек на проект</span>
-                         </div>
-                         <div class="service__options">
-                            <span class="service__options-text">30 дней работы в стреднем</span>
-                         </div>
+                         <div class="service__config">
+                            <div class="service__options">
+                                <span class="service__options-text">От 2 человек на проект</span>
+                            </div>
+                            <div class="service__options">
+                                <span class="service__options-text">30 дней работы в стреднем</span>
+                            </div>
+                        </div>
                          <div class="service__text">
                             <p>Получите живое видео своего самого счастливого дня, которое Вы будете
                                пересматривать снова и снова.</p>
                          </div>
                          <div class="service__button">
-                            <button class="button">Подробнее</button>
+                            <button class="button button--border">Подробнее</button>
                          </div>
                         </div>
                     </li>
@@ -111,7 +121,7 @@
               <h2 class="news-stock__title">Новости и акции</h2> 
               <ul class="news-stock__list">
                 <li class="news-stock__item">
-                    <img src="" alt="" class="news-stock__image">
+                    <img src="./File/camera.png" alt="" class="news-stock__image">
                     <div class="news-stock__content">
                         <time class="news-stock__date">
                             Декабрь 2019
@@ -123,7 +133,7 @@
                     </div>
                 </li>
                 <li class="news-stock__item">
-                    <img src="" alt="" class="news-stock__image">
+                    <img src="./File/wedding.png" alt="" class="news-stock__image">
                     <div class="news-stock__content">
                         <time class="news-stock__date">
                             Декабрь 2019
@@ -167,7 +177,6 @@
               </div>
             </div>
             <div class="about-us">
-               <img src="" alt="" class="about-us__image">
                <div class="about-us__content">
                 <h2 class="about-us__title">О нас</h2>
                 <div class="about-us__text">
@@ -182,13 +191,13 @@
                </div>
             </div>
         </main>
-        <footer class="footer">
-            <div class="logo">
+        <footer class="footer footer__content">
+            <div class="footer__logo">
                 <a href="#" class="logo__link">
-                    <img src="" alt="Картинка логотипа" class="logo__icon">
+                    <img src="./File/logo.png" alt="Картинка логотипа" class="logo__icon">
                 </a>
             </div>  
-            <nav class="menu">
+            <nav class="footer__menu">
                 <ul class="menu__list">
                     <li class="menu__item">
                         <a href="#" class="menu__link">Главная</a>
@@ -203,25 +212,17 @@
             </nav>
             <div class="socials">
                 <ul class="socials__list">
-                    <li class="socials__item">
-                        <a href="" class="socials__link">
-                            <img src="" alt="Иконка телеграмма" class="socials__icon">
-                        </a>
+                    <li class="socials__item socials__item--icon--telegram">
+                        <a href="#" class="socials__link"></a>
                     </li>
-                    <li class="socials__item">
-                        <a href="" class="socials__link">
-                            <img src="" alt="Иконка Вконтакте" class="socials__icon">
-                        </a>
+                    <li class="socials__item socials__item--icon--vk">
+                        <a href="#" class="socials__link"></a>
                     </li>
-                    <li class="socials__item">
-                        <a href="" class="socials__link">
-                            <img src="" alt="Иконка Фейсбук" class="socials__icon">
-                        </a>
+                    <li class="socials__item socials__item--icon--fb">
+                        <a href="#" class="socials__link"></a>
                     </li>
-                    <li class="socials__item">
-                        <a href="" class="socials__link">
-                            <img src="" alt="Иконка Инстаграмма" class="socials__icon">
-                        </a>
+                    <li class="socials__item socials__item--icon--inst">
+                        <a href="#" class="socials__link"></a>
                     </li>
                 </ul>
             </div>
